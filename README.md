@@ -1,3 +1,6 @@
+#Projeto de estudo com React
+projeto simples em react para estudar, uma plataforma que exibes filmes consumidos de um API, e utilizando rotas para navegação
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
