@@ -4,11 +4,8 @@ import './style.css'
 function Header(){
     return(
         <header>
-            <div className="menu">
-                <Link to="/">Home</Link>
-                <Link to="/sobre">Sobre</Link>
-                <Link to="/contato">Contato</Link>
-            </div>
+            <Link className="logo" to="/">Prime Flix</Link>
+            <Link className="favoritos" to="/favoritos">Favoritos</Link>
         </header>
     )
 }

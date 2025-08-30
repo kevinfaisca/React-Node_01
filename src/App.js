@@ -1,9 +1,13 @@
 import RoutesApp from './routes'
-
+import {ToastContainer}  from 'react-toastify'
 
 function App() {
   return (
-      <RoutesApp/>
+      <div className="App">
+        <ToastContainer autoClose={3000}/>
+        <RoutesApp/>
+      </div>
+
   );
 }
 

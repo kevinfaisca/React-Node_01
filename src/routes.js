@@ -1,10 +1,9 @@
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
-import Sobre from './pages/Sobre';
-import Contato from './pages/Contato';
+import Favoritos from './pages/Favoritos';
 import Header from './components/Header'
 import Erro from './pages/Erro'
-import Produto from './pages/Produto'
+import Filme from './pages/Filme'
 
 function RoutesApp(){
     return(
@@ -12,9 +11,8 @@ function RoutesApp(){
             <Header/>
             <Routes>
                 <Route  path='/' element={<Home/>}/>
-                <Route  path='/sobre' element={<Sobre/>}/>
-                <Route  path='/contato' element={<Contato/>}/>
-                <Route  path='/produto/:id' element={<Produto/>}/>
+                <Route  path='/favoritos' element={<Favoritos/>}/>
+                <Route  path='/filme/:id' element={<Filme/>}/>
 
                 <Route path="*" element={<Erro/>}></Route>
             </Routes>
